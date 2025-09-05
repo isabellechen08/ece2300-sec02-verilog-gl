@@ -88,6 +88,9 @@ module Top();
     // Add checks for exhaustive testing (check all possible inputs)
     //''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 
+    //check to make sure that the exhaustive tests match the disc 2 handout
+    check (0, 0, 0, 0);
+
     t.test_case_end();
   endtask
 
